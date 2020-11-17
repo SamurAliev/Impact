@@ -1,0 +1,12 @@
+.work-request--options {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.work-request--options label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+}
