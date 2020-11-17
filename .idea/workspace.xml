@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ead0755-5ec6-462e-8df3-293bd6766998" name="Default Changelist" comment="" />
+    <list default="true" id="7ead0755-5ec6-462e-8df3-293bd6766998" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +12,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -162,7 +167,8 @@
       <workItem from="1605604225030" duration="3652000" />
       <workItem from="1605609233757" duration="7780000" />
       <workItem from="1605623879836" duration="9388000" />
-      <workItem from="1605637849380" duration="1118000" />
+      <workItem from="1605637849380" duration="1436000" />
+      <workItem from="1605639298979" duration="344000" />
     </task>
     <servers />
   </component>
