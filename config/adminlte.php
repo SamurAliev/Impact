@@ -382,6 +382,17 @@ return [
                 ],
             ],
         ],
+        [
+            'name' => 'ckeditor',
+            'active' => true,
+            'files' => [
+                [
+                    'type' => 'js',
+                    'asset' => true,
+                    'location' => 'ckeditor/ckeditor.js',
+                ],
+            ],
+        ]
     ],
 
     /*

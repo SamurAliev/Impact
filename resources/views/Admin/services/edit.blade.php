@@ -77,7 +77,7 @@
 
             <div class="form-group">
                 {{Form::label("description{$loop->iteration }", "Нижнее описание №{$loop->iteration }")}}
-                {{ Form::text('content[]', $description->content, ['class' => 'form-control', 'id'=> "description{$loop->iteration }"])}}
+                {{ Form::textarea('content[]', $description->content, ['class' => 'form-control ck_form', 'id'=> "description{$loop->iteration }"])}}
                 @error("description{$loop->iteration }")
                 <div class="alert alert-danger">{{ $message }}</div>
                 @enderror
@@ -145,11 +145,17 @@
 
 @endsection
 
+@section('plugins.ckeditor', true)
+
+
 
 @section('js')
+
     <script>
         $(document).ready(function () {
-            bsCustomFileInput.init()
+            bsCustomFileInput.init();
+
+                $inputs = CKEDITOR.replaceAll();
         });
     </script>
 

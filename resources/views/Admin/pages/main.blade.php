@@ -67,8 +67,9 @@
 
 @endsection
 
+
 @section('js')
     <script> $(document).ready(function () {
-            bsCustomFileInput.init()
+            bsCustomFileInput.init();
         })</script>
 @stop

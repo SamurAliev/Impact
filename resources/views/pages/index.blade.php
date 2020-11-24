@@ -53,7 +53,7 @@
                 </div>
                 <div class="intro--options">
                     <a href="#0">
-                        <h3>{{$descriptionTitle}}</h3>
+                        <h3>{!!$descriptionTitle!!}</h3>
                         <p>{{$descriptionContent}}</p>
                     </a>
                 </div>
